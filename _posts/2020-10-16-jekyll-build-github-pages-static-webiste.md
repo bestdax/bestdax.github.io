@@ -4,6 +4,7 @@ title: "Jekyll搭建GitHub静态博客"
 date: 2020-10-16
 author: 'dax'
 categories: "note"
+typora-root-url: ../../bestdax.github.io
 ---
 
 首先，第一步需要有一个GitHub账号。
@@ -12,7 +13,7 @@ categories: "note"
 
 当然，不可能以后的博客都写成`html`格式的来提交，这就轮到`Jekyll`出场啦。
 
-<img src="../assets/images/image-20201018150301878.png" alt="image-20201018150301878" style="zoom:50%;" />
+<img src="/assets/images/image-20201018150301878.png" alt="image-20201018150301878" style="zoom:50%;" />
 
 这个截图是`Jekyll`官网上的介绍，安装，建站，和本地预览，相当简单。
 
