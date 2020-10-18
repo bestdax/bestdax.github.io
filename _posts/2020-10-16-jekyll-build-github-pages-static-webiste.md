@@ -50,5 +50,26 @@ categories: jekyll update
 ---
 ```
 
-并且，博客日志的文件名是有固定格式的。`YEAR-MONTH-DAY-title.MARKUP`，其中，年份是4倍数，月日都是两位数，标记的格式一般用`markdown`的话写`.md`就可以了。
+并且，博客日志的文件名是有固定格式的。`YEAR-MONTH-DAY-title.MARKUP`，其中，年份是4位数，月日都是两位数，标记的格式一般用`markdown`的话写`.md`就可以了。
 
+最后，如果有美观需求，可以定制主题，网上有很多现成的。改主题的操作如下：
+
+添加下面内容到 `Gemfile`:
+
+```
+gem "bulma-clean-theme"
+```
+
+添加下面内容到 `_config.yml`:
+
+```
+theme: bulma-clean-theme
+```
+
+然后执行:
+
+```
+$ bundle
+```
+
+不过，好像需要一些修改才行，我试了一个并不太美观，就算了。

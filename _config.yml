@@ -29,6 +29,7 @@ github_username:  bestdax
 
 # Build settings
 theme: minima
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
 
