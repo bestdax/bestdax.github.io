@@ -54,7 +54,7 @@ categories: jekyll update
 
 最后，如果有美观需求，可以定制主题，网上有很多现成的。改主题的操作如下：
 
-添加下面内容到 `Gemfile`:
+添加下面内容到 `Gemfile`，把主题的名字替换成想要的:
 
 ```
 gem "bulma-clean-theme"
@@ -72,4 +72,9 @@ theme: bulma-clean-theme
 $ bundle
 ```
 
-不过，好像需要一些修改才行，我试了一个并不太美观，就算了。
+以上是把主题下载到本地的方法。要在GitHub上面使用的话，只要在`_config.yml`里加上这一句就好了。
+
+```
+remote_theme: chrisrhymes/bulma-clean-theme
+```
+
