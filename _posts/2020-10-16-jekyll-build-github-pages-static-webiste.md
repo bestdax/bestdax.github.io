@@ -78,3 +78,4 @@ $ bundle
 remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
+不过，我试了几次以后发现多少有点问题，暂时还是用`minima`主题吧。
