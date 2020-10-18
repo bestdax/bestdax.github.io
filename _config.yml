@@ -29,7 +29,7 @@ github_username:  bestdax
 
 # Build settings
 theme: minima
-remote_theme: soyaine/jekyll-theme-diary 
+# remote_theme: soyaine/jekyll-theme-diary 
 plugins:
   - jekyll-feed
 
