@@ -109,4 +109,3 @@ remote_theme: chrisrhymes/bulma-clean-theme
 
 试着将上面的`default: 'classic'`改为`solarized`然后在本地的服务器上试了一下，哦耶，成功了!
 
-<img src="/assets/images/image-20201019134317917.png" alt="image-20201019134317917" style="zoom:50%;" />
