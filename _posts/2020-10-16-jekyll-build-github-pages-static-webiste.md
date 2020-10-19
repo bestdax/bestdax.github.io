@@ -80,3 +80,33 @@ remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
 不过，我试了几次以后发现多少有点问题，暂时还是用`minima`主题吧。
+
+---
+
+## 2020年10月19日补记
+
+默认的`minima`主题看起来还是有点太寡淡了，心有不甘的继续折腾。之前没有成功是因为`minima`主题有`post`、`home`以及`page`三个`layout`，而一般的主题只有一个`post`外加一个`default`，所以`build`的时候会出错。我于是想到能不能把`minima`主题`clone`下来，然后进行一些微调。说干就干，`clone`完后发现有几个是需要拷贝到网站的文件夹里的。
+
+<img src="/assets/images/image-20201019133124640.png" alt="image-20201019133124640" style="zoom:50%;" />
+
+其中的_sass文件夹从名字就可以看出是控制样式的。然后我又在`assets`里面找到了一个`css`文件夹。
+
+打开`style.scss`文件可以看到以下内容：
+
+```
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+```
+
+根据这个内容我找到`_sass`文件夹里面的`skin`文件夹，里面有这四个皮肤文件。
+
+<img src="/assets/images/image-20201019134116119.png" alt="image-20201019134116119" style="zoom:50%;" />
+
+试着将上面的`default: 'classic'`改为`solarized`然后在本地的服务器上试了一下，哦耶，成功了!
+
+<img src="/assets/images/image-20201019134317917.png" alt="image-20201019134317917" style="zoom:50%;" />
