@@ -109,3 +109,20 @@ remote_theme: chrisrhymes/bulma-clean-theme
 
 试着将上面的`default: 'classic'`改为`solarized`然后在本地的服务器上试了一下，哦耶，成功了!
 
+
+
+## 2020年10月21日
+
+默认的格式没段首缩进，大标题也不居中，从中文的角度看起来比较别扭。就琢磨着如何变更一下设置。在_sass文件夹里面有一个`custom-sytle.sass`，里面的说明是定制格式的话可以放在这个文件里，试着在这个文件里面写了如下内容：
+
+```html
+p {
+	text-indent: 2em;
+}
+
+h1 {
+	text-align: center;
+}
+```
+
+这下子看起来舒服多了。
