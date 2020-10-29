@@ -103,7 +103,7 @@ remote_theme: chrisrhymes/bulma-clean-theme
 
 默认的`minima`主题看起来还是有点太寡淡了，心有不甘的继续折腾。之前没有成功是因为`minima`主题有`post`、`home`以及`page`三个`layout`，而一般的主题只有一个`post`外加一个`default`，所以`build`的时候会出错。我于是想到能不能把`minima`主题`clone`下来，然后进行一些微调。说干就干，`clone`完后发现有几个是需要拷贝到网站的文件夹里的。
 
-__对于Git还不怎么会，不知道在同一个文件夹里用Git来克隆会不会有干扰，就选择复制了。__
+<i>对于Git还不怎么会，不知道在同一个文件夹里用Git来克隆会不会有干扰，就选择复制了。</i>
 
 
 
