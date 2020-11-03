@@ -4,8 +4,10 @@ title: "Jekyll搭建GitHub静态博客"
 date: 2020-10-16
 author: 'dax'
 categories: "note"
-typora-root-url: ../../bestdax.github.io
+
 ---
+
+
 
 ## 为什么需要一个自己的空间
 
@@ -142,3 +144,11 @@ h1 {
 ```
 
 这下子看起来舒服多了。
+
+## 配合Typora
+
+用`Typora`配合书写`markdown`是一件很惬意的事情，最重要的是插入图片会非常方便。首先要把图片的文件夹给设置一下：
+
+<img src="../assets/images/image-20201103112339576.png" alt="image-20201103112339576" style="zoom:50%;" />
+
+然后还要设置图片的根目录，在`视图`→`图片`→`设置根目录`中把根目录设置为网站的根目录文件夹，这样以后插入的图片就能在GitHub上正确显示了。
